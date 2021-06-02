@@ -9,11 +9,11 @@
   - products
     Database table to store products data and has following attributes in table
 
-    string   sku
-    array    image_urls
-    string   name
-    string   price
-    array    selected_options
+    - string   sku
+    - array    image_urls
+    - string   name
+    - string   price
+    - array    selected_options
 
     We will use above columns to store products data. We have index on sku so that we can fastest searching.
 
